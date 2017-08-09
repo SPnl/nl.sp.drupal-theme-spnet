@@ -1,0 +1,125 @@
+/* =========================================================================
+   Basic Drupal form elements
+   ========================================================================== */
+.form-item {
+	padding: .4em 0;
+}
+
+.form-item label {
+	font-weight: bold;
+}
+
+.form-item input {
+	outline: none;
+	max-width: 100%;
+}
+
+.form-item .form-required {
+	color: #f60000;
+}
+
+.form-item .form-text {
+	padding: .4em;
+	background: #eee;
+	border: 1px solid #ddd;
+}
+
+.form-item .description {
+	color: #aaa;
+	font-size: .9em;
+	padding: .4em;
+}
+
+.form-item:hover .description {
+	color: #333;
+}
+
+.form-submit {
+	font-family: HelveticaInseratLTPro, Impact, 'Sans serif';
+	font-weight: normal;
+	text-transform: uppercase;
+	background: #f60000;
+	margin-right: .4em;
+	padding: .4em .72em;
+	color: #fff;
+	border: 1px solid #d00;
+}
+
+.form-submit:hover {
+	background: #000;
+	color: #fff;
+	border: 1px solid #000;
+}
+
+/* Errors 
+-----------------------------------------------------------------------------*/
+.form-item .form-text.error {
+	background: #fee;
+	border: 2px solid #f66666;
+}
+
+/* Forms in primary content 
+-----------------------------------------------------------------------------*/
+.primary-content form {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.primary-content fieldset {
+	padding: 0 1.4em 1em 1.4em;
+	margin-bottom: 1em;
+}
+
+.primary-content legend {
+	padding: .4em .72em;
+	font-family: HelveticaNeueLTStd-Md, Sans-serif;
+}
+
+#user-pass {
+	text-align: center;
+}
+
+#user-pass label {
+	display: block;
+	width: 100%;
+	padding: .4em 0;
+}
+
+/*= Webform module elements
+------------------------------------------------------------- */
+.content .webform-component-fieldset {
+	display: inline-block;
+	border: none;
+	padding: 0;
+}
+
+.content .webform-component-fieldset legend {
+	padding: .4em .4em .4em 0;
+	margin-bottom: 1em;
+	font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+	font-size: 1.14em;
+	color: #333;
+	border-bottom: 2px solid #ddd;
+	width: 100%;
+}
+
+.content .webform-component-fieldset .form-item .form-text {
+	float: right;
+}
+
+.webform-component-fieldset .webform-component-textfield {
+	padding: 1em 0;
+	display: block;
+}
+
+.content .webform-component-fieldset .form-item label {
+	padding-right: .4em;
+}
+
+.content .webform-component-fieldset .webform-container-inline {
+	display: inline-block;
+}
+
+.content form .grippie {
+	display: none;
+}

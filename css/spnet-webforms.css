@@ -1,0 +1,69 @@
+/* Mijn gegevens (webform) */
+#webform-client-form-4 .form-item label {
+	width: 120px;
+	display: inline-block;
+	padding: .32em;
+}
+
+#webform-client-form-4 legend {
+	display: none;
+}
+
+#webform-client-form-4 fieldset {
+	padding: 0;
+	border: none;
+}
+
+
+
+@media only screen and (max-width:480px) {
+	.page-aanmelden .primary-content p {
+		padding: 0 1em;
+	}
+
+	.page-aanmelden .content-header .title {
+		color: #f60000;
+		text-align: center;
+		margin: 0;
+		padding: 0;
+	}
+
+	.page-aanmelden .step-title {
+		font-size: .9em;
+	}
+
+	.page-aanmelden .breadcrumb {
+		display: none;
+	}
+
+	.page-aanmelden #spaanmelden-form-lid .form-wrapper {
+		width: 90%;
+		max-width: 90%;
+		min-width: 90%;
+		padding: 0;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+
+	.page-aanmelden #spaanmelden-form-lid input,
+	.page-aanmelden #spaanmelden-form-lid select {
+		max-width: 93%;
+		margin: 0 auto;
+	}
+
+	.page-aanmelden #spaanmelden-form-lid .form-submit {
+		width: 72%;
+		margin: .72em auto;
+		display: block;
+		padding: .72em
+	}
+
+	.messages li {
+		font-size: 1em;
+	}
+
+	.messages .message {
+		padding: .1em 1.4em;
+	}
+
+}

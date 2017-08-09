@@ -1,0 +1,65 @@
+name = SPnet
+description = Stand-alone SPnet theme
+package = Other
+version = 1.0
+core = 7.x
+
+; Available regions
+regions[highlight] = Highlighted content
+regions[content]   = Primary content
+regions[secondary] = Secondary content
+regions[footer]    = Footer content
+regions[search]    = Search
+
+scripts[] = js/vendor/modernizr-2.8.3.min.js
+scripts[] = js/vendor/noframework.waypoints.min.js
+scripts[] = js/main.js
+scripts[] = js/myfonts.js
+
+stylesheets[all][] = css/normalize.css
+stylesheets[all][] = css/basic-html.css
+stylesheets[all][] = css/page.css
+stylesheets[all][] = css/header.css
+stylesheets[all][] = css/navigation.css
+stylesheets[all][] = css/search.css
+stylesheets[all][] = css/content.css
+stylesheets[all][] = css/images.css
+stylesheets[all][] = css/books.css
+stylesheets[all][] = css/highlight.css
+stylesheets[all][] = css/interface.css
+stylesheets[all][] = css/forms.css
+stylesheets[all][] = css/panels.css
+stylesheets[all][] = css/footer.css
+stylesheets[all][] = css/user.css
+stylesheets[all][] = css/login.css
+stylesheets[all][] = css/helper-classes.css
+stylesheets[all][] = css/modules/book.css
+
+; Fonts
+stylesheets[all][] = fonts/SPnet-icons.css
+
+; Media Queries
+stylesheets[all][] = css/media/screen-min-1080px.css
+stylesheets[all][] = css/media/screen-max-480px.css
+
+; SPnet specific styling
+stylesheets[all][] = css/spnet-webforms.css
+stylesheets[all][] = css/spnet-sp-aanmelden.css
+stylesheets[all][] = css/spnet-person.css
+stylesheets[all][] = css/spnet-webforms-buurten.css
+
+; Some legacy
+stylesheets[all][] = css/spruit_spnet.css
+stylesheets[all][] = css/shame.css
+
+; Enabled drupal support
+plugins[panels][layouts] = layouts
+
+; Unset these stylesheets
+settings[unset_styles][] = modules/system/system.menus.css
+settings[unset_styles][] = modules/system/system.messages.css
+settings[unset_styles][] = modules/system/system.theme.css
+settings[unset_styles][] = modules/field/theme/field.css
+settings[unset_styles][] = modules/node/node.css
+settings[unset_styles][] = modules/user/user.css
+settings[unset_styles][] = modules/book/book.css

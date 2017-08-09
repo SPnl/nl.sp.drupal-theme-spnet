@@ -1,0 +1,181 @@
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav li a {
+	display: inline-block;
+}
+
+.site-navigation {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0;
+}
+
+.site-navigation .title {
+	display: none;
+}
+
+.site-navigation ul {
+	position: relative;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.site-navigation li {
+	text-transform: uppercase;
+	font-family: HelveticaInseratLTPro, 'Sans serif';
+	font-weight: normal;
+	font-style: normal;
+}
+
+.site-navigation li a {
+	padding: .72em .4em;
+	color: #f60000;
+	font-size: 1.4em;
+	text-decoration: none;
+}
+
+.site-navigation li.active-trail a {
+	color: #aaa;
+	background: #fff;
+}
+
+.site-navigation li a:hover {
+	color: #222;
+	background: #fff;
+}
+
+.site-navigation li ul {
+  display: none;
+  position: absolute;
+  bottom: -1em;
+  left: 0;
+  padding: 0 1em;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.site-navigation li:hover ul {
+  display: block;
+}
+
+.site-navigation li ul li {
+  padding: 0 0.6em;
+}
+
+.site-navigation li ul li a {
+  font-size: 1.1em;
+  color: #444;
+  padding: 0;
+}
+
+
+.breadcrumb {
+	margin: auto;
+	font-size: .9em;
+}
+
+.breadcrumb ul {
+	max-width: 960px;
+	margin: 0 auto;
+	 border-bottom: none;
+	padding: 0  .4em .42em .4em;
+}
+
+.breadcrumb a {
+	margin-right: .4em;
+	color: #aaa;
+	text-decoration: none;
+}
+
+.breadcrumb li:before {
+  content: ' > ';
+  color: #aaa;
+}
+
+.breadcrumb li:first-of-type:before {
+  content: ''
+}
+
+.content .menu {
+	overflow: hidden;
+	padding: 0;
+}
+
+.content .menu li {
+	color: #f60000;
+}
+
+/* Primary content navigation (menus) */
+.primary-content .menu li a {
+	text-decoration: none !Important;
+}
+
+.primary-content .menu li:hover a:hover {
+	color: #f60000;
+}
+
+.primary-content .menu li:hover:before {
+	color: #f60000;
+}
+
+.primary-content .menu li {
+	font-weight: bold;
+}
+
+.primary-content .menu .menu {
+	margin: 0;
+	padding: .4em .72em;
+}
+
+.primary-content .menu .active {
+	color: #aaa;
+}
+
+/* Highlight content navigation (menus) */
+.highlight-content .block-menu .title {
+	display: none;
+}
+
+.page .highlight-content .block-menu {
+	max-width: 100%;
+	border: none;
+	margin: 0;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.highlight-content .block-menu ul {
+	max-width: 960px;
+	margin: 0 auto;
+	text-align: center;
+	padding: .1em;
+}
+
+.highlight-content .block-menu li {
+	display: inline-block;
+	font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+	text-transform: uppercase;
+}
+
+.highlight-content .block-menu li a {
+	display: inline-block;
+	padding: .4em;
+	border: 1px solid #ddd;
+	color: #888;
+	text-decoration: none;
+}
+
+/* Hide menu on frontpage */
+
+.front .site-navigation .active {
+  display: none;
+}
