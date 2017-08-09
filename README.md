@@ -1,6 +1,3 @@
-ABOUT SPruit
------------
+# ABOUT SPnet Theme
 
-SPruit is a base theme for @SPnl
-
-The purpose is to launch websites and applications quickly, and cause as low as possible maintenance overhead.
+This is the theme for SPnet.nl 
