@@ -5,7 +5,6 @@
  * Display a single Drupal page.
  */
 ?>
-<div class="page-wrapper">
     <div class="page">
         <?php 
 		include('inc/site-header.php'); 
@@ -64,4 +63,3 @@
             <?php print render($page['footer']); ?>
         </footer>
     </div>
-</div>
