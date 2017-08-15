@@ -72,3 +72,15 @@
 .page-search .site-header .search-toggle a {
 	color: #aaa;
 }
+
+/* Prevent confusion between DEV envioronments */
+.site-header .dev-name {
+ 	background: rgba(254,254,0,.9);
+	padding: .4em;
+	position: absolute;
+	margin-top: -72px;
+	text-align: center;
+	width: 320px;
+	displaYy: block;
+	font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
+}

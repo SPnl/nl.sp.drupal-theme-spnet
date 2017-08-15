@@ -2309,6 +2309,7 @@ div.grippie {
   background-repeat: no-repeat;
   background-position: 0 center;
   cursor: pointer;
+  font-weight: normal;
 }
 
 .crm-container .crm-master-accordion-header+.crm-accordion-body {
@@ -4222,3 +4223,4 @@ span.crm-status-icon {
   background-color: transparent;
   white-space: nowrap;
 }
+
