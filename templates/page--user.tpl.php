@@ -8,19 +8,8 @@
 if ( ! user_is_logged_in()): ?>
 
 	<div class="page-wrapper login-page">
-		<div class="page">
-			<header class="site-header">
-
-				<div class="site-branding">
-					<?php if ($logo): ?>
-						<div class="site-logo">
-							<a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
-								<img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>"/>
-							</a>
-						</div>
-					<?php endif; ?>
-				</div>
-			</header>
+      <div class="page">
+      <?php include('inc/site-header.php'); ?>
 
 			<main>
 				<?php print $messages; ?>
