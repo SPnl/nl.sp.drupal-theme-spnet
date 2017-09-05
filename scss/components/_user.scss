@@ -1,9 +1,5 @@
 /* User page */
 
-.page-user-me-edit .site-footer .active-trail.active {
-  display: none;
-}
-
 .page-user-edit .site-footer a[href="/user/me/edit"] {
   display: none;
 }
@@ -42,4 +38,36 @@
 .page-wrapper.login-page:after {
   position: absolute;
   bottom: 0;
+}
+
+/* New user page */
+.page-user-new .content-header .title {
+  font-size: 1em;
+  color: #aaa;
+}
+
+.page-user-new form h3 {
+  font-size: 2.7em;
+  margin: 0;
+}
+
+/* User me page */
+.page-user-me-edit .site-footer .active-trail.active {
+  display: none;
+}
+
+/* Mijn gegevens (webform) */
+#webform-client-form-4 .form-item label {
+	width: 120px;
+	display: inline-block;
+	padding: .32em;
+}
+
+#webform-client-form-4 legend {
+	display: none;
+}
+
+#webform-client-form-4 fieldset {
+	padding: 0;
+	border: none;
 }

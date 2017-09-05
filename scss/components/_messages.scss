@@ -67,37 +67,12 @@
   margin: 0;
 }
 
-/* Node tabs (edit, view, etc.) */
-.tabs {
-  overflow: hidden;
-  width: 100%;
-}
+@media only screen and (max-width:480px) {
+  .messages li {
+    font-size: 1em;
+  }
 
-.tabs ul {
-  margin: 0 auto;
-  padding: 0 1.4em;
-  max-width: 960px;
-}
-
-.tabs li {
-  display: inline-block;
-  padding: 0;
-  margin: 4px;
-}
-
-.tabs li a {
-  color: #333;
-  background: #ddd;
-  padding: .4em .72em;
-  font-size: .8em;
-  text-decoration: none;
-}
-
-.tabs li a:hover {
-  background: #000;
-  color: #fff;
-}
-
-.tabs li.active {
-  display: none;
+  .messages .message {
+    padding: .1em 1.4em;
+  }
 }

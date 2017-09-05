@@ -61,11 +61,6 @@
 	transition-duration: .4s;
 }
 
-.directions .panel-pane li:nth-of-type(2n) a {
-
-	/* background: #bbb; */
-}
-
 .directions .panel-pane li a:hover {
 	background: #000;
 	color: #fff !important;
@@ -96,6 +91,35 @@
 	max-width: 520px;
 }
 
+/* Agenda pane */
+.directions .pane-agenda-pane-agenda li {
+	margin: 0;
+	padding: 0 0 .32em 0;
+}
+
+.directions .pane-agenda-pane-agenda li {
+	display: table;
+}
+
+.pane-agenda-pane-agenda .date-display-single {
+	font-family: HelveticaNeueLTStd-BdCn;
+	border-bottom: 2px solid #aaa;
+	display: table-cell;
+	padding: .32em 0;
+	width: 68px;
+	font-size: .9em;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.pane-agenda-pane-agenda .event-title {
+	display: table-cell;
+	padding-left: .32em;
+	font-size: .9em;
+	vertical-align: middle;
+}
+
+
 /* Pane variants */
 .page-node .pane-node-body .body {
 	max-width: 100%;
@@ -113,6 +137,11 @@
 .directions .highlight .primary-action {
 	background: #000;
 	color: #fff;
+}
+
+.directions .view-footer {
+	font-size: .8em;
+	padding: .72em 0;
 }
 
 /* Custom menu pane */
@@ -154,36 +183,6 @@
 	font-family: 'HelveticaNeueLTStd-BdCn';
 }
 
-/* Book navigation */
-.pane-node-book-nav {
-	width: 960px;
-	margin: 0 auto;
-}
-
-.pane-node-book-nav .pane-content {
-	width: 280px;
-	float: right;
-	margin: 0 0 1em 0;
-	padding: 0;
-	margin-left: 1.4em;
-	border-left: .4em solid #ddd;
-}
-
-.pane-node-book-nav .pane-content ul {
-	list-style: none;
-	margin: 0;
-	padding: 0 .72em;
-}
-
-.pane-node-book-nav .pane-content li a {
-	font-family: 'HelveticaNeueLTStd-BdCn';
-	font-weight: normal;
-	color: #000;
-	border-bottom: 1px solid #ddd;
-	display: block;
-	padding: .4em .72em;
-}
-
 .pane-node-terms .pane-content {
 	max-width: 960px;
 	margin: 0 auto;
@@ -198,59 +197,10 @@
 	margin: .14em 0;
 }
 
-.directions .view-footer {
-	font-size: .8em;
-	padding: .72em 0;
-}
 
-/* Agenda pane */
-.directions .pane-agenda-pane-agenda li {
-	margin: 0;
-	padding: 0 0 .32em 0;
-}
-
-.directions .pane-agenda-pane-agenda li {
-	display: table;
-}
-
-.pane-agenda-pane-agenda .date-display-single {
-	font-family: HelveticaNeueLTStd-BdCn;
-	border-bottom: 2px solid #aaa;
-	display: table-cell;
-	padding: .32em 0;
-	width: 68px;
-	font-size: .9em;
-	text-align: center;
-	vertical-align: middle;
-}
-
-.pane-agenda-pane-agenda .event-title {
-	display: table-cell;
-	padding-left: .32em;
-	font-size: .9em;
-	vertical-align: middle;
-}
 
 @media only screen and (max-width:728px) {
 	.directions .panel-pane {
 		height: auto;
 	}
-
-	.pane-node-terms .pane-content {
-		padding: 0 1.4em;
-	}
-
-	.pane-node-book-nav .pane-content {
-		width: 280px;
-		float: none;
-		margin: .4em;
-		border: none;
-	}
-
-	.pane-node-book-nav .pane-content li {
-		padding: 0;
-		margin: 0;
-		font-size: 1em;
-	}
-
 }

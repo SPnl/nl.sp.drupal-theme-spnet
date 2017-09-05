@@ -2,22 +2,23 @@
    Basic HTML elements
    ========================================================================== */
 html {
-	color: #222;
+	color: $color-read;
 	font-size: 1em;
 	line-height: 1.4;
-	font-family: "HelveticaNeueLT-Light", "Helvetica Neue", Helvetica, "Roboto Sans", "Segoe UI", Arial, "Lucida Grande", sans-serif;
+	font-family: $font-body;
 	height: 100%;
 }
 
 body {
 	min-height: 100%; /* resize to full background */
+	background: $color-base;
 }
 
 hr {
 	display: block;
 	height: 1px;
 	border: 0;
-	border-top: 1px solid #ccc;
+	border-top: 1px solid $color-light;
 	margin: 1em 0;
 	padding: 0;
 }
@@ -38,7 +39,7 @@ textarea {
 h1,
 h2,
 h3 {
-	font-family: HelveticaInseratLTPro, 'Sans serif';
+	font-family: $font-primary;
 	text-transform: uppercase;
 	font-weight: normal;
 	line-height: 1.14;
@@ -47,5 +48,5 @@ h3 {
 a,
 a:link,
 a:visited {
-	color: #222;
+	color: $color-read;
 }

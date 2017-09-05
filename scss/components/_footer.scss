@@ -1,19 +1,18 @@
 .site-footer {
   text-align: center;
   color: #aaa;
-}
-
-.site-footer .block-menu {
-  overflow: hidden;
-  background: #f60000;
-}
-
-.site-footer .block-menu a {
-  color: #fff;
-}
-
-.site-footer .block-menu .title {
-  display: none;
+  .block-menu {
+    overflow: hidden;
+    background: $color-brand;
+    a,
+    a:link,
+    a:visited {
+      color: #fff;
+    }
+  }
+  .title {
+    display: none;
+  }
 }
 
 .site-footer .block-menu ul {
