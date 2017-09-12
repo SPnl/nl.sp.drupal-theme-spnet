@@ -1,7 +1,6 @@
 {
   "name": "spnl/nl.sp.drupal-theme-spnet",
   "description": "Stand-alone theme for SPnet.nl",
-  "version": "1.0",
   "type": "drupal-theme",
   "authors": [
     {
