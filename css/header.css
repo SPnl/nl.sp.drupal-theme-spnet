@@ -26,9 +26,11 @@
 	display: inline-block;
 }
 
-.site-header .site-logo img {
+.site-header .site-logo img,
+.site-header .site-logo svg {
 	height: 100%;
 	width: auto;
+	fill: #ec1b23
 }
 
 .site-header .site-name {
@@ -84,3 +86,4 @@
 	displaYy: block;
 	font-family: HelveticaNeueLTStd-BdCn, 'Sans serif';
 }
+

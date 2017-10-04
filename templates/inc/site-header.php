@@ -2,10 +2,10 @@
     <div class="site-branding">
         <div class="site-logo">
             <a href="<?php print $front_page; ?>" id="logo" rel="home" title="<?php print t('Home'); ?>">
-                <img alt="<?php print t('Home'); ?>" src="<?php print $logo; ?>"/>
+                <?php include('logo-svg.php'); ?>
             </a>
         </div>
-        <?php // Prevent confusion in DTAP streets
+        <?php // Warning signal to prevent confusion in DTAP streets
               if(!in_array($_SERVER['SERVER_NAME'], array('www.spnet.nl','spnet.nl'))):  ?>
                 <div class="dev-name"><?php print $_SERVER['SERVER_NAME']; ?></div>
         <?php endif; ?>
