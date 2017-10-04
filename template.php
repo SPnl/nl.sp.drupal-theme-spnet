@@ -10,6 +10,7 @@ function spnet_css_alter(&$css)
      * If stylesheets from core or modules cause trouble in your theme add the path to spruit.info
      * before you start overriding classes
      */
+
     $stylesheets = theme_get_setting('unset_styles');
     foreach ($stylesheets as $path) {
         unset($css[$path]);

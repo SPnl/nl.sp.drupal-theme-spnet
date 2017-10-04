@@ -1,7 +1,7 @@
 name = SPnet
 description = Stand-alone SPnet theme
 package = Other
-version = 1.0
+version = 1.1
 core = 7.x
 
 ; Available regions
@@ -39,7 +39,6 @@ stylesheets[all][] = css/modules/book.css
 stylesheets[all][] = fonts/SPnet-icons.css
 
 ; Media Queries
-stylesheets[all][] = css/media/screen-min-1080px.css
 stylesheets[all][] = css/media/screen-max-480px.css
 
 ; SPnet specific styling
@@ -63,4 +62,3 @@ settings[unset_styles][] = modules/field/theme/field.css
 settings[unset_styles][] = modules/node/node.css
 settings[unset_styles][] = modules/user/user.css
 settings[unset_styles][] = modules/book/book.css
-settings[unset_styles][] = modules/contrib/civicrm/bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css

@@ -2,14 +2,15 @@
 .directions .content-wrapper {
 	text-align: center;
 	margin: 0 auto;
+	max-width: 90vw;
 }
 
 .directions .panel-pane {
 	display: inline-block;
-	width: 256px;
-	min-height: 212px;
+	width: 248px;
+	min-height: 248px;
 	margin: 8px;
-	padding: .4em;
+	padding: 8px;
 	text-align: left;
 	overflow: hidden;
 	vertical-align: top;
