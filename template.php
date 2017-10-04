@@ -132,6 +132,6 @@ function spnet_form_alter(&$form, &$form_state, $form_id)
 {
     if ($form_id == 'search_block_form') {
         $form['actions']['submit']['#value']                     = 'S';
-        $form['search_block_form']['#attributes']['placeholder'] = t("Search");
+        $form['search_block_form']['#attributes']['placeholder'] = "Zoeken op SPnet.nl";
     }
 }

@@ -1,17 +1,19 @@
 /* Panels: Directions (front-page) */
-.directions .primary-content {
+.directions .content-wrapper {
 	text-align: center;
+	margin: 0 auto;
 }
 
 .directions .panel-pane {
-	width: 280px;
-	height: 380px;
-	margin: 1em .72em 0 .72em;
 	display: inline-block;
+	width: 256px;
+	min-height: 212px;
+	margin: 8px;
 	padding: .4em;
-	border-bottom: 5px solid #eee;
 	text-align: left;
 	overflow: hidden;
+	vertical-align: top;
+	border-bottom: 4px solid #eee;
 }
 
 .directions .panel-seperator {
@@ -34,11 +36,9 @@
 
 .directions .pane-title,
 .directions .panel-pane .pane-content h2 {
-	margin: 0 0 .32em 0;
-	padding: 0;
-	font-size: 1.4em;
-	text-transform: none;
-	font-family: 'HelveticaNeueLTStd-BdCn';
+	margin: 0 0 .21em 0;
+	padding: .21em 0;
+	font-size: 1.14em;
 }
 
 .directions .panel-pane .pane-content h2 {
@@ -47,34 +47,46 @@
 
 .directions .panel-pane li {
 	margin: 0 0 .14em 0;
-	font-size: 1rem;
+	font-size: 1em;
 }
 
-.directions .panel-pane li a {
-	background: #ddd;
-	padding: .32em .72em;
+.directions .panel-pane li a,
+.directions .panel-pane li a:link,
+.directions .panel-pane li a:visited {
 	font-family: 'HelveticaNeueLTStd-BdCn';
 	text-decoration: none;
 	font-weight: normal;
-	display: inline-block;
-	-webkit-transition-duration: .4s; /* Safari */
-	transition-duration: .4s;
+	-webkit-transition-duration: .2s; /* Safari */
+	transition-duration: .2s;
+	cursor: pointer;
 }
 
-.directions .panel-pane li:nth-of-type(2n) a {
-
-	/* background: #bbb; */
+.directions .panel-pane li a:before {
+	font-family: 'SPnet-icons';
+	content: "\2192";
+	padding-right: .4em;
+	color: #ff3131;
+	vertical-align: -2px;
 }
+
+.directions .panel-pane li a[href$=".pdf"]:before {
+	content: "r";
+	vertical-align: 0;
+}
+
 
 .directions .panel-pane li a:hover {
-	background: #000;
-	color: #fff !important;
+	color: #ff3131;
 }
 
 .directions .pane-content ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
+}
+
+.directions .pane-content p {
+font-size: .9em;
 }
 
 .directions .content-width {

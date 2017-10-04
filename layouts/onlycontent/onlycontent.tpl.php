@@ -12,4 +12,6 @@
  *   $content['middle']: The only panel in the layout.
  */
 ?>
-<?php print $content['middle']; ?>
+<div class="content-wrapper">
+  <?php print $content['middle']; ?>
+</div>
