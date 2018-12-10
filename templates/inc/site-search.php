@@ -1,3 +1,3 @@
 <div class="site-search">
-    <?php print render($page['search']); ?>
+   <?php print render($page['search']); ?>
 </div>

@@ -69,3 +69,11 @@
 .clearfix:after {
     clear: both;
 }
+
+.dev-query {
+    position: fixed;
+    padding: 1em;
+    font-family: monospace;
+    background: white;
+    bottom: 0;
+}

@@ -11,7 +11,11 @@
         <?php endif; ?>
     </div>
     <nav class="site-navigation">
-      <?php print render(menu_tree('main-menu', 1)); ?>
+      <ul>
+        <li><a href="/form/mijn-gegevens">Persoonlijke gegevens</a></li>
+        <li><a href="/mijn/financiele-gegevens">Financiele gegevens</a></li>
+        <li><a href="/user/edit">Wachtwoord aanpassen</a></li>
+
     </nav>
     <div class="search-toggle">
         <?php if ($page['search']): ?>

@@ -63,4 +63,4 @@ settings[unset_styles][] = modules/field/theme/field.css
 settings[unset_styles][] = modules/node/node.css
 settings[unset_styles][] = modules/user/user.css
 settings[unset_styles][] = modules/book/book.css
-settings[unset_styles][] = modules/contrib/civicrm/bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css
+settings[unset_styles][] = modules/contrib/civicrm/bower_components/jquery-ui/themes/
